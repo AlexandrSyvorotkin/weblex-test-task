@@ -44,7 +44,7 @@ const Footer = () => {
                             )}
                         </div>
                     </div>
-                    <p>Москва, Путевой проезд 3с1, к 902</p>
+                    <p className='address'>Москва, Путевой проезд 3с1, к 902</p>
                 </div>
             </div>
             <div className='footer_rights'>
