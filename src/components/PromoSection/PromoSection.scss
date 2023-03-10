@@ -6,13 +6,22 @@
 	justify-content: space-between;
 	color: #E4E5EA;
 	font-family: 'Inter', sans-serif;
+	@media (max-width: 768px) {
+	  flex-direction: column;
+	  gap: 50px;
+	  align-items: center;
+	}
   }
   
   .promo_info {
 	font-weight: 400;
 	font-size: 48px;
 	line-height: 58px;
-	
+	@media (max-width: 576px) {
+	  font-weight: 400;
+	  font-size: 36px;
+	  line-height: 44px;
+	}
 	& > :nth-child(2) {
 	  background: -webkit-linear-gradient(#FCB045, #FF3F78);
 	  -webkit-background-clip: text;
@@ -25,6 +34,11 @@
 	  font-size: 18px;
 	  line-height: 22px;
 	  font-family: 'Monsterat', sans-serif;
+	  @media (max-width: 576px) {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 22px;
+	  }
 	}
   }
   
@@ -34,6 +48,12 @@
 	  font-size: 18px;
 	  line-height: 22px;
 	  text-align: right;
+	  @media (max-width: 576px) {
+		text-align: left;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+	  }
 	  
 	  & > span {
 		background: -webkit-linear-gradient(#FCB045, #FF3F78);
@@ -52,6 +72,12 @@
 	width: 350px;
 	flex-wrap: wrap;
 	justify-content: flex-end;
+	@media (max-width: 768px) {
+	  width: 284px;
+	}
+	@media (max-width: 576px) {
+	  justify-content: flex-start;
+	}
   }
   
   .promo_item {
@@ -67,6 +93,21 @@
 	font-weight: 500;
 	font-size: 18px;
 	line-height: 22px;
+	@media (max-width: 576px) {
+	  font-weight: 400;
+	  font-size: 13px;
+	  line-height: 16px;
+	  display: flex;
+	  gap: 5px;
+	  align-items: center;
+	  &:before {
+		content: '';
+		display: inline-block;
+		width: 10px;
+		height: 2px;
+		background: linear-gradient(#FCB045, #FD1D1D);
+	  }
+	}
   }
   
   .promo_text {
@@ -75,10 +116,19 @@
 	line-height: 20px;
 	width: 130px;
 	font-family: 'Monsterat', sans-serif;
+	@media (max-width: 576px) {
+	  display: none;
+	}
   }
   .btn_footer {
 	margin-top: 40px;
 	display: flex;
 	justify-content: flex-end;
+	@media (max-width: 768px) {
+	  justify-content: center;
+	  @media (max-width: 576px) {
+		display: none;
+	  }
+	}
   }
 }

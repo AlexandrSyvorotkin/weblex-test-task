@@ -7,10 +7,10 @@ import PromoSection from "./components/PromoSection/PromoSection";
 function App() {
     return (
             <Container>
-                <Header/>
-                {/*<main>*/}
-                {/*    <PromoSection/>*/}
-                {/*</main>*/}
+                {/*<Header/>*/}
+                <main>
+                    <PromoSection/>
+                </main>
                 {/*<Footer/>*/}
             </Container>
     );

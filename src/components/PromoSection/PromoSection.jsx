@@ -13,13 +13,13 @@ const PromoSection = () => {
     return (
         <section className='promo'>
             <div className='promo_wrapper'>
-                <div className='promo_info'>
+                <h1 className='promo_info'>
                     <p>Зарабатывайте <br/> больше</p>
                     <p>с WELBEX</p>
                     <p>Развиваем и контролируем <br/> продажи за вас</p>
-                </div>
+                </h1>
                 <div className='promo_information'>
-                    <p>Вместе с <span>бесплатной <br/> консультацией</span> мы дарим:</p>
+                    <h2>Вместе с <span>бесплатной <br/> консультацией</span> мы дарим:</h2>
                     <div className='promo_items'>
                         {promo_items.map(it =>
                             <div className='promo_item' key={it.id}>
