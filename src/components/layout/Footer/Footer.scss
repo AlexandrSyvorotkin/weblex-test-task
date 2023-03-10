@@ -1,8 +1,10 @@
 .footer {
   color: #E4E5EA;
   margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
+  .footer_wrapper {
+	display: flex;
+	justify-content: space-between;
+  }
   .footer_links {
 	display: flex;
 	gap: 75px;
@@ -55,5 +57,17 @@
   .links_footer_container {
 	display: flex;
 	gap: 20px;
+  }
+  .footer_rights {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	margin-top: 33px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	&>:nth-child(2) {
+	  text-decoration: underline;
+	}
   }
 }
