@@ -8,6 +8,9 @@
   .footer_links {
 	display: flex;
 	gap: 75px;
+	@media (max-width: 1100px) {
+		gap: 50px;
+	}
   }
   .footer_link_title {
 	font-weight: 700;

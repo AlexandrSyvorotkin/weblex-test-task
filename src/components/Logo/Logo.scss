@@ -3,7 +3,9 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
+  @media (max-width: 576px) {
+	display: none;
+  }
   .logo_item {
 	width: 140px;
 	height: 24px;

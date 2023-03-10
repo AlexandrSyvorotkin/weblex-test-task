@@ -8,10 +8,10 @@ function App() {
     return (
             <Container>
                 <Header/>
-                <main>
-                    <PromoSection/>
-                </main>
-                <Footer/>
+                {/*<main>*/}
+                {/*    <PromoSection/>*/}
+                {/*</main>*/}
+                {/*<Footer/>*/}
             </Container>
     );
 }
