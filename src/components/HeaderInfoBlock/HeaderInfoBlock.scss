@@ -1,0 +1,17 @@
+.header_info_block {
+  display: flex;
+  gap: 47px;
+  color: #E4E5EA;
+  .img_container {
+	width: 20px;
+	height: 20px;
+	& > img {
+	  width: 100%;
+	  height: 100%;
+	}
+  }
+  .links {
+	display: flex;
+	gap: 30px;
+  }
+}
