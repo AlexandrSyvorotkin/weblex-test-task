@@ -1,0 +1,82 @@
+.promo {
+  margin-top: 85px;
+  margin-bottom: 70px;
+  .promo_wrapper {
+	display: flex;
+	justify-content: space-between;
+	color: #E4E5EA;
+	font-family: 'Inter', sans-serif;
+  }
+  
+  .promo_info {
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 58px;
+	
+	& > :nth-child(2) {
+	  background: -webkit-linear-gradient(#FCB045, #FF3F78);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	}
+	
+	& > :nth-child(3) {
+	  margin-top: 30px;
+	  font-weight: 400;
+	  font-size: 18px;
+	  line-height: 22px;
+	  font-family: 'Monsterat', sans-serif;
+	}
+  }
+  
+  .promo_information {
+	& > :nth-child(1) {
+	  font-weight: 500;
+	  font-size: 18px;
+	  line-height: 22px;
+	  text-align: right;
+	  
+	  & > span {
+		background: -webkit-linear-gradient(#FCB045, #FF3F78);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		text-transform: uppercase;
+	  }
+	}
+  }
+  
+  .promo_items {
+	margin-top: 40px;
+	display: flex;
+	gap: 20px;
+	width: 350px;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+  }
+  
+  .promo_item {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+  }
+  
+  .promo_title {
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+  }
+  
+  .promo_text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	width: 130px;
+	font-family: 'Monsterat', sans-serif;
+  }
+  .btn_footer {
+	margin-top: 40px;
+	display: flex;
+	justify-content: flex-end;
+  }
+}
