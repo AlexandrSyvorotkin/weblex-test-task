@@ -1,0 +1,18 @@
+.navbar {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #E4E5EA;
+  .nav_list {
+	display: flex;
+	gap: 20px;
+  }
+  .nav_list_item {
+	list-style-type: none;
+	& > a {
+	  text-decoration: none;
+	  color: black;
+	}
+  }
+}
