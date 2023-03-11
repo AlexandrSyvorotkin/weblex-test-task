@@ -9,5 +9,6 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: black;
+    /*background: linear-gradient(90deg, #4077f3, #833ab4, #961a1a, #0e1014, #0000);*/
+    background: black;
 }
